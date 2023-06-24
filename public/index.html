@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercor Assignment</title>
+    <script
+      src="https://kit.fontawesome.com/4038fdf70e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="myWrapper">
+      <h1>Mercor Task</h1>
+      <h2>Click the mic button once to start</h2>
+      <h3>(Please use microsoft edge or google chrome)</h3>
+      <button class="myBtn"><i class="fa-solid fa-microphone"></i></button>
+      <div class="myText">
+        You said:
+        <em class="userText">...</em>
+      </div>
+      <div class="myText">
+        ChatGPT replied:
+        <em class="chatgptText">...</em>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

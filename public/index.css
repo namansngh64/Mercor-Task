@@ -1,0 +1,27 @@
+.myWrapper {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+.myBtn {
+  border: none;
+  background-color: rgb(194, 186, 186);
+  border-radius: 100%;
+  padding: 10%;
+  font-size: 10vh;
+  color: blue;
+  margin-bottom: 5%;
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+.myBtn:hover {
+  transform: scale(1.05);
+}
+
+.myText {
+  font-weight: 800;
+  margin: auto;
+  margin-bottom: 2%;
+  margin-left: 0px;
+}
