@@ -38,8 +38,12 @@ io.on("connection", (socket) => {
       })
       .then((res) => {
         socket.emit("bot reply", res.data.choices[0].message.content);
+      })
+      .catch((err) => {
+        socket.emit("bot reply", "");
+        console.log(err);
       });
   });
 });
 
-export default server;
+module.exports = app;
